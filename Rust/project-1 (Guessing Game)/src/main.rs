@@ -22,7 +22,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue
         };
-        
+
         if user_choice == 1 {
             guessing_game()
         } else if user_choice == 2 {
@@ -56,7 +56,7 @@ fn main() {
                 Err(_) => continue
             };
 
-            println!("Answer: {}", fibonacci_num_gen(nth));
+            println!("Answer {}", fibonacci_num_gen(nth));
         }
     }
 }
