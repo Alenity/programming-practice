@@ -10,9 +10,7 @@ fn main() {
 
     loop {    
         println!("(Please type a number)");
-        println!("1) Play guessing game");
-        println!("2) Convert F to C");
-        println!("3) Generate nth term of fibonacci sequence");
+        
         
         let mut user_choice = String::new();
 
@@ -24,7 +22,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue
         };
-
+        
         if user_choice == 1 {
             guessing_game()
         } else if user_choice == 2 {
@@ -99,7 +97,7 @@ fn guessing_game() {
 fn fahrenheit_to_celsius(x: i32) -> f64{
     let x: f64 = x as f64;
 
-    return (x - 32.0) * (5.0/9.0)
+    return (((x - 32.0) * (5.0/9.0)) * 100.0).round() / 100.0
 }
 
 fn fibonacci_num_gen(x: u32) -> u32 {
