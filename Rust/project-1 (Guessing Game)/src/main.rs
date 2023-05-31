@@ -10,6 +10,9 @@ fn main() {
 
     loop {    
         println!("(Please type a number)");
+        println!("1) Play guessing game");
+        println!("2) Convert F to C");
+        println!("3) Generate nth term of fibonacci sequence");
         
         let mut user_choice = String::new();
 
@@ -21,6 +24,42 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue
         };
+
+        if user_choice == 1 {
+            guessing_game()
+        } else if user_choice == 2 {
+            
+            println!("Enter fahrenheit temp:");
+            
+            let mut temp = String::new();
+
+            io::stdin()
+                .read_line(&mut temp)
+                .expect("Failed to read line");
+
+            let temp: i32 = match temp.trim().parse() {
+                Ok(num) => num,
+                Err(_) => continue
+            };
+
+            println!("Answer: {}", fahrenheit_to_celsius(temp));
+
+        } else if user_choice == 3 {
+            println!("Enter nth term: ");
+
+            let mut nth = String::new();
+
+            io::stdin()
+                .read_line(&mut nth)
+                .expect("Failed to read line");
+
+            let nth: u32 = match nth.trim().parse() {
+                Ok(num) => num, 
+                Err(_) => continue
+            };
+
+            println!("Answer: {}", fibonacci_num_gen(nth));
+        }
     }
 }
 
@@ -57,8 +96,10 @@ fn guessing_game() {
     }
 }
 
-fn fahrenheit_to_celsius(x: i32) -> i32{
-    (x - 32) * (5/9)
+fn fahrenheit_to_celsius(x: i32) -> f64{
+    let x: f64 = x as f64;
+
+    return (x - 32.0) * (5.0/9.0)
 }
 
 fn fibonacci_num_gen(x: u32) -> u32 {
