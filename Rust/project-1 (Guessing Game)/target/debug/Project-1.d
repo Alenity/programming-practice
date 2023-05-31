@@ -1,1 +1,1 @@
-/mnt/c/Users/danie/Code/Projects/practice-makes-perf/Rust/Project-1/target/debug/Project-1: /mnt/c/Users/danie/Code/Projects/practice-makes-perf/Rust/Project-1/src/main.rs
+/mnt/c/Users/danie/Code/Projects/practice-makes-perf/Rust/project-1\ (Guessing\ Game)/target/debug/project-1: /mnt/c/Users/danie/Code/Projects/practice-makes-perf/Rust/project-1\ (Guessing\ Game)/src/main.rs
