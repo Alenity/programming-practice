@@ -1,4 +1,4 @@
-# practice-makes-perf
+# My Project Library
  The domain of all my bs projects
 
 Rust Projects
