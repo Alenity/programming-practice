@@ -1,5 +1,5 @@
-# My Project Library
- The domain of all my bs projects
+# Practice Projects Library
+Container for practice projects
 
 Rust Projects
  
