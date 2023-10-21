@@ -1,0 +1,3 @@
+﻿  auth-system.cpp
+C:\Users\alenii\Code\projects\C++\auth-system\auth-system.cpp(43): warning C4715: 'deleteUser': not all control paths return a value
+  auth-system.vcxproj -> C:\Users\alenii\Code\projects\C++\auth-system\x64\Debug\auth-system.exe
