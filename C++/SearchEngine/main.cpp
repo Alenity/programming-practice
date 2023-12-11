@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stack>
+#include <string>
 
 using namespace std;
 
@@ -13,8 +15,12 @@ public:
 	void get() {
 
 	}
+
+	void store() {
+
+	}
 };
 
 class LocalStore {
-	int items;
+	stack<string> items;
 };
