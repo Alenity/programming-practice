@@ -18,9 +18,9 @@ public:
 			} else {
 				return two;
 			}
-		} else if (one) {
+		} else if (one != nullptr) {
 			return one;
-		} else if (two) {
+		} else if (two != nullptr) {
 			return two;
 		} else {
 			return nullptr;
@@ -29,17 +29,20 @@ public:
 
 
 
-	ListNode* mergeTwoLists(ListNode* list1 = nullptr, ListNode* list2 = nullptr) {
+	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 		using NodePtr = ListNode*;
-		NodePtr curr1, curr2, prev, newHead;
-		newHead, prev = lesser(list1, list2);
+		NodePtr curr1 = nullptr, curr2 = nullptr, prev = nullptr, newHead = nullptr;
+		newHead = prev = lesser(list1, list2);
 		curr1 = list1;
 		curr2 = list2;
-		while (curr1 != nullptr && curr2 != nullptr) {
+		printf("nullptr = %p\n", (void*)nullptr);
+		while (curr1 != nullptr || curr2 != nullptr) {
 			if (lesser(curr1, curr2) == curr1) {
 				curr1 = curr1->next;
-			} else {
+			} else if (lesser(curr1, curr2) == curr2) {
 				curr2 = curr2->next;
+			} else {
+				break;
 			}
 			prev->next = lesser(curr1, curr2);
 			prev = prev->next;
@@ -47,7 +50,30 @@ public:
 		}
 		return newHead;
 	};
+
+
+	ListNode* mergeTwoListsBetter(ListNode* list1, ListNode* list2) {
+        ListNode* dummy = new ListNode(0);
+        ListNode* cur = dummy;
+
+        while (list1 && list2) {
+            if (list1->val > list2->val) {
+                cur->next = list2;
+                list2 = list2->next;
+            } else {
+                cur->next = list1;
+                list1 = list1->next;
+            }
+            cur = cur->next;
+        }
+
+        cur->next = list1 ? list1 : list2;
+
+        return dummy->next;        
+    }
 };
+
+
 
 int main() {
 	return 0;
