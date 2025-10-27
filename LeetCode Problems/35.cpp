@@ -19,10 +19,5 @@ public:
 
 
 int main(int argc, char** argv) {
-
-	vector<int> numbers = {0, 1, 2, 4, 5, 5, 6};
-	int number = 4;
-	Solution sol;
-	printf("%d", sol.searchInsert(numbers, number));
 	return 0;
 }
