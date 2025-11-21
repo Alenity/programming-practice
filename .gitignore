@@ -250,6 +250,7 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
+*.exe
 ClientBin/
 ~$*
 *~
