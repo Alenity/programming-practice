@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\alenii\Code\projects\C++\CasinoNumberGuessing\main.cpp(58,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\alenii\Code\projects\C++\CasinoNumberGuessing\main.cpp(79,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\alenii\Code\projects\C++\CasinoNumberGuessing\main.cpp(93,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\alenii\Code\projects\C++\CasinoNumberGuessing\main.cpp(142): warning C4715: 'System::startUP': not all control paths return a value
-  CasinoNumberGuessing.vcxproj -> C:\Users\alenii\Code\projects\C++\CasinoNumberGuessing\x64\Debug\CasinoNumberGuessing.exe

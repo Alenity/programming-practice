@@ -1,1 +1,0 @@
-C:\Users\alenii\Code\projects\C++\RockPaperScissors\x64\Debug\RockPaperScissors.exe
