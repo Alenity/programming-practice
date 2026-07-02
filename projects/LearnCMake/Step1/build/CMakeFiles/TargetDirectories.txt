@@ -1,0 +1,8 @@
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/CMakeFiles/Tutorial.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/CMakeFiles/edit_cache.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/CMakeFiles/rebuild_cache.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/Tutorial/CMakeFiles/edit_cache.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/Tutorial/CMakeFiles/rebuild_cache.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/MathFunctions/CMakeFiles/edit_cache.dir
+/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/MathFunctions/CMakeFiles/rebuild_cache.dir

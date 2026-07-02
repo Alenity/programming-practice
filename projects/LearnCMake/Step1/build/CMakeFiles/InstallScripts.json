@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/cmake_install.cmake",
+		"/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/Tutorial/cmake_install.cmake",
+		"/home/a-seven/Code/programming-practice/projects/LearnCMake/Step1/build/MathFunctions/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
