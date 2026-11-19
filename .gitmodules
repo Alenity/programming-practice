@@ -1,3 +1,6 @@
 [submodule "projects/LearnOpenGL/SDL"]
 	path = projects/LearnOpenGL/SDL
 	url = https://github.com/libsdl-org/SDL.git
+[submodule "projects/Rust/rustlings"]
+	path = projects/Rust/rustlings
+	url = https://github.com/rust-lang/rustlings.git
